@@ -65,10 +65,10 @@ const WorkCard = () => {
           <div className="pro-details">
             <p>This website is a modern website that is designed according to current website trends such as slide animations and this website has been designed responsively on any device.</p>
             <div className="pro-btns">
-              <a href="https://github.com/Gibran2075/Sneaker-Store.github.io" className="btn">
+              <a href="https://gibran2075.github.io/Sneaker-Store.github.io/" className="btn">
                 View
               </a>
-              <a href="https://gibran2075.github.io/Sneaker-Store.github.io/" className="btn">
+              <a href="https://github.com/Gibran2075/Sneaker-Store.github.io" className="btn">
                 Source
               </a>
             </div>
