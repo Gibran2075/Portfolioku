@@ -2,7 +2,7 @@ import "./HeroimgStyles.css";
 
 import React from "react";
 
-import Introimg from "../assets/avatar-gibran.png";
+import Introimg from "../assets/intro-bg.jpg";
 import { Link } from "react-router-dom";
 
 function Heroimg() {
@@ -12,7 +12,7 @@ function Heroimg() {
         <img className="intro-img" src={Introimg} alt="Introimg" />
       </div>
       <div className="content">
-        <p>HI, I'M MUHAMMAD GIBRAN</p> <br />
+        <h1 className="font">HI, I'M MUHAMMAD GIBRAN</h1>
         <p>I'M A JUNIOR FRONTEND DEVELOPER</p>
         <h1>WEB DEVELOPER</h1>
         <div>
