@@ -2,6 +2,7 @@
 import "./WorkCardStyles.css";
 
 import React from "react";
+import pro7 from "../assets/gymapp.png";
 import pro1 from "../assets/webfilm.png";
 import pro2 from "../assets/ecommerce.png";
 import pro3 from "../assets/landingpageweb.png";
@@ -14,6 +15,24 @@ const WorkCard = () => {
     <div className="work-container">
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
+        <div className="project-card">
+          <img src={pro7} alt="" />
+          <h2 className="project-title">Gym Exercise App</h2>
+          <div className="pro-details">
+            <p>
+              This Gym Exerice App created using React JS framework, This website is already integrated with Rest API using Rapid API, using this website, the user can choose which part of the muscle they want to train using the card
+              provided and the user can see examples of movements and videos related to these movements.
+            </p>
+            <div className="pro-btns">
+              <a href="https://gym-app-exercise.netlify.app/" className="btn">
+                View
+              </a>
+              <a href="https://github.com/Gibran2075/gym_exercise" className="btn">
+                Source
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="project-card">
           <img src={pro1} alt="" />
           <h2 className="project-title">Film Website Design</h2>
