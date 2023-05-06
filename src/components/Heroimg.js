@@ -13,7 +13,7 @@ function Heroimg() {
       </div>
       <div className="content">
         <h1 className="font">HI, I'M MUHAMMAD GIBRAN</h1>
-        <p>I'M A JUNIOR FRONTEND DEVELOPER</p>
+        <p>I'M A JUNIOR FRONTEND DEVELOPER AT SOLUSI 247</p>
         <h1>WEB DEVELOPER</h1>
         <div>
           <Link to="/project" className="btn">
